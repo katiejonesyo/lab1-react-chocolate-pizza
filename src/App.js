@@ -1,24 +1,16 @@
 import Chocolatepizza from './Chocolatepizza.js';
 import './App.css';
-import header from './public/head.png';
+import header from './assets/head.png';
+import pizza from './assets/choco-pizza.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={header} className="head" alt="head" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Chocolate Pizza</h1>
       </header>
+      <img src={pizza} className="pizza" alt="pizza" />
     </div>
   );
 }
