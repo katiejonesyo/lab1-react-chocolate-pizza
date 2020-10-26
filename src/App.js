@@ -4,6 +4,7 @@ import header from './assets/head.png';
 import pizza from './assets/choco-pizza.png';
 import listbg from './assets/list-bg.png';
 import greyline from './assets/horizontal-grey-line.png';
+import footerfork from './assets/logo.png'
 
 
 function App() {
@@ -30,9 +31,12 @@ function App() {
         two hours before serving. 
     </p>
     <img src={listbg} className="list" alt="list" />
+    <img src={greyline} className="greyline" alt="greyline" />
     </body>
     <footer>
-    <img src={greyline} className="greyline" alt="greyline" />
+    <hr/><img src={footerfork} className="footerfork" alt="footerfork" /><hr/>
+    <p>Delicious copyright stuff</p>
+&copy; 2020 Alchemy Code Lab
     </footer>
     </div>
     
