@@ -1,11 +1,12 @@
 import Chocolatepizza from './Chocolatepizza.js';
 import './App.css';
+import header from './public/head.png';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={head.png} className="head" alt="head" />
+        <img src={header} className="head" alt="head" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
