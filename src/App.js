@@ -1,7 +1,6 @@
 import './App.css';
 import header from './assets/head.png';
 import pizza from './assets/choco-pizza.png';
-import listbg from './assets/list-bg.png';
 import greyline from './assets/horizontal-grey-line.png';
 import footerfork from './assets/logo.png'
 import MyAmazingList from './MyAmazingList';
