@@ -30,6 +30,19 @@
   color: #61dafb;
 }
 
+.ingredient-list {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/list-bg.png);
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  width: 200px;
+  height: 1.1em;
+}
+
 
 
 @keyframes App-logo-spin {
